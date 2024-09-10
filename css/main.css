@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
-
-/* font-family: 'Big Shoulders Text', cursive; */
+/* font-family: Oswald; */
 
 .nav-flex-row {
     display: flex;
@@ -20,7 +18,7 @@
 }
 
 .nav-flex-row li a {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: Oswald;
     color: #ffffff;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -29,7 +27,6 @@
 
 .section-intro {
     height: 820px;
-    background-image: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -81,7 +78,7 @@ a.link-to-book:hover {
     text-align: center;
     width: 60%;
     margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: Oswald;
     font-size: 1.8em;
     text-transform: uppercase;
 }
@@ -103,7 +100,7 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: Oswald;
     color: #ffffff;
     background-color: #95999e;
     text-transform: uppercase;
