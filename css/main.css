@@ -1,6 +1,9 @@
 /* font-family: Oswald; */
 * {
     font-family: Oswald;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .nav-flex-row {
@@ -93,8 +96,18 @@ a.link-to-book:hover {
     text-transform: uppercase;
 }
 
-.carousel-inner {
-    height: 700px;
+.restaurant-photos {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    flex: 1;
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
 }
 
 .row-flex {
@@ -149,10 +162,6 @@ a.link-to-book:hover {
         font-size: 20px;
     }
 
-    .carousel-inner {
-        height: auto;
-    }
-
     .row-flex {
         display: flex;
         flex-direction: column;
@@ -175,10 +184,6 @@ a.link-to-book:hover {
     .about-section p,
     .about-section h3 {
         font-size: 15px;
-    }
-
-    .carousel-inner {
-        height: auto;
     }
 
     .row-flex {
