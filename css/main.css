@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.nav-flex-row {
+.nav-flex-row, .menu-nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,15 +17,22 @@
     padding: 0;
 }
 
-.nav-flex-row li {
+.nav-flex-row li, .menu-item {
     text-decoration: none;
     list-style-type: none;
     padding: 20px 15px;
 }
 
-.nav-flex-row li a {
+.nav-flex-row li a  {
     color: white;
     font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.menu-nav li a {
+    color: black;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: 300;
 }
