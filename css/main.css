@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.nav-flex-row, .menu-nav {
+.nav-flex-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,6 +28,18 @@
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
 }
 
 .menu-nav li a {
