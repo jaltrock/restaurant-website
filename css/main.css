@@ -53,14 +53,51 @@
 
 #menu {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    background-color: rgb(114, 88, 104);
+}
+
+.menu-item-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.menu-text-box,
+.menu-pic-box {
+    flex: 0 0 50%; 
+    min-width: 250px; 
+}
+
+.menu-text-box {
+    flex: 0 0 50%;
+    padding: 10px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu-pic-box {
+    flex: 0 0 50%; 
+    max-width: 600px;
+    height: 600px;
+    margin: 20px;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    background-color: #f3f3f3c0;
-    color: black;
-    font-size: 1em;
-    padding: 50px 30px;
+}
+
+.menu-pic-box img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 50%;
+  
+    margin: 20px;
 }
 
 #menu h1 {
@@ -253,5 +290,16 @@ a.link-to-book:hover {
         font-size: 15px;
         text-align: center;
     }
+
+    .menu-item-container {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .menu-text-box, 
+    .menu-pic-box {
+        flex: 0 0 100%;
+    }
+
 
 }
