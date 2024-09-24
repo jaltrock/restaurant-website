@@ -1,1 +1,1 @@
-Sample restaurant website
+Sample restaurant website - home page and menu page
